@@ -51,6 +51,7 @@
             android:name=".activities.TeachersActivity"
             android:label="@string/teacher"
             android:parentActivityName=".activities.MainActivity" />
+<!--         Settings Activity -->
         <activity
             android:name=".activities.SettingsActivity"
             android:label="@string/settings"
