@@ -505,7 +505,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             // optional
             CustomTabsHelper.Companion.addKeepAliveExtra(context, customTabsIntent.intent);
 
-            // This is where the magic happens...
             CustomTabsHelper.Companion.openCustomTab(context, customTabsIntent,
                     Uri.parse(url),
                     new WebViewFallback());
@@ -564,7 +563,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             builder.title(getString(R.string.permission_required));
             builder.content(getString(R.string.permission_required_description));
 
-            // add the buttons
+            // buttons
             builder.onPositive((dialog, which) -> {
                 openAppPermissionSettings();
                 dialog.dismiss();
@@ -574,7 +573,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             builder.negativeText(getString(R.string.permission_cancel_button));
             builder.onNegative((dialog, which) -> dialog.dismiss());
 
-            // create and show the alert dialog
+            // alert dialog
             MaterialDialog dialog = builder.build();
             dialog.show();
         }
