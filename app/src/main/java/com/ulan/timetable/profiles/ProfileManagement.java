@@ -1,8 +1,3 @@
-
- *     You should have received a copy of the GNU General Public License
- *     along with GymWenApp.  If not, see <https://www.gnu.org/licenses/>.
- */
-
 package com.ulan.timetable.profiles;
 
 import android.content.Context;
