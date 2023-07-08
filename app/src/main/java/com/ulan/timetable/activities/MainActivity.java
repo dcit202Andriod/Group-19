@@ -502,7 +502,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     .setShowTitle(true)
                     .build();
 
-            // This is optional but recommended
+            // optional
             CustomTabsHelper.Companion.addKeepAliveExtra(context, customTabsIntent.intent);
 
             // This is where the magic happens...
