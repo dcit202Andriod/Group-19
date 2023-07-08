@@ -34,10 +34,7 @@
             android:name=".activities.HomeworkActivity"
             android:label="@string/homework"
             android:parentActivityName=".activities.MainActivity" />
-        <activity
-            android:name=".activities.NotesActivity"
-            android:label="@string/notes_activity_title"
-            android:parentActivityName=".activities.MainActivity" />
+       
         <activity
             android:name=".activities.NoteInfoActivity"
             android:label="@string/notes_activity_title"
