@@ -202,9 +202,6 @@ public class SummaryActivity extends AppCompatActivity {
     }
 
 
-    /**
-     * Setup the course Table with Library: https://github.com/asdoi/TimetableView
-     */
     private void setupTimetableLibrary2() {
         List<String> done = new ArrayList<>();
         ArrayList<String> colors = new ArrayList<>();
