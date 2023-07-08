@@ -41,6 +41,7 @@
             android:name=".activities.NotesActivity"
             android:label="@string/notes_activity_title"
             android:parentActivityName=".activities.MainActivity" /> 
+<!--         NoteInfo Activity -->
         <activity
             android:name=".activities.NoteInfoActivity"
             android:label="@string/notes_activity_title"
