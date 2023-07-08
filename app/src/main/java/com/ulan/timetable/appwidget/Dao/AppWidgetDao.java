@@ -11,9 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-/**
- * From https://github.com/SubhamTyagi/TimeTable
- */
+
 public class AppWidgetDao extends BaseDao {
 
     private static final String TABLE_NAME = "app_widget";
