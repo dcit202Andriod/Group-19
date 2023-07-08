@@ -36,6 +36,7 @@
             android:name=".activities.HomeworkActivity"
             android:label="@string/homework"
             android:parentActivityName=".activities.MainActivity" />
+<!--         Notes Activity -->
          <activity
             android:name=".activities.NotesActivity"
             android:label="@string/notes_activity_title"
