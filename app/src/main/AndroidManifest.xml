@@ -42,7 +42,6 @@
             android:name=".activities.NoteInfoActivity"
             android:label="@string/notes_activity_title"
             android:parentActivityName=".activities.NotesActivity" />
-<!--         Teachers Activity -->
         <activity
             android:name=".activities.TeachersActivity"
             android:label="@string/teacher"
