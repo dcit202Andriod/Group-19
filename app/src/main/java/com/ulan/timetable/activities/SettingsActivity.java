@@ -3,7 +3,16 @@ package com.ulan.timetable.activities;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceFragmentCompat;
 
+import com.ulan.timetable.R;
+import com.ulan.timetable.fragments.SettingsFragment;
+import com.ulan.timetable.utils.PreferenceUtil;
+
+import java.util.Objects;
 
 public class SettingsActivity extends AppCompatActivity implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
     public static final String KEY_SEVEN_DAYS_SETTING = "sevendays";
