@@ -7,9 +7,7 @@ import androidx.annotation.Nullable;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * From https://github.com/SubhamTyagi/TimeTable
- */
+
 class DBManager {
 
     private static final AtomicInteger sOpenCounter = new AtomicInteger();
