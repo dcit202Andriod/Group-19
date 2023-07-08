@@ -20,8 +20,7 @@ import com.ulan.timetable.utils.AlertDialogsHelper;
 import com.ulan.timetable.utils.DbHelper;
 import com.ulan.timetable.utils.PreferenceUtil;
 
-import java.util.ArrayList;
-import java.util.Objects;
+
 
 public class ExamsActivity extends AppCompatActivity {
 
