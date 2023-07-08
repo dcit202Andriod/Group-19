@@ -28,12 +28,7 @@ import java.util.Objects;
 public class HomeworkActivity extends AppCompatActivity {
     public static final String ACTION_ADD_HOMEWORK = "addHomework";
 
-    @NonNull
-    private final AppCompatActivity context = this;
-    private ListView listView;
-    private HomeworkAdapter adapter;
-    private DbHelper db;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(PreferenceUtil.getGeneralTheme(this));
