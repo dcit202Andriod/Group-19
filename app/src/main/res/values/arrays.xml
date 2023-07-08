@@ -25,7 +25,12 @@
         <item>@string/theme_auto</item>
     </string-array>
 
-    
+<string-array name="theme_array_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>black</item>
+        <item>switch</item>
+    </string-array>    
 
     <integer-array name="preselected_subjects_colors">
         <item>@color/art</item>
