@@ -115,9 +115,6 @@ public class SummaryActivity extends AppCompatActivity {
     }
 
 
-    /**
-     * Setup the course Table with Library: https://github.com/asdoi/TimetableUI
-     */
     private void setupCourseTableLibrary1() {
         CourseTableLayout courseTable = findViewById(R.id.courseTable);
         courseTable.setVisibility(View.VISIBLE);
